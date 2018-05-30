@@ -1,0 +1,24 @@
+{
+    "id": 0,
+    "bannerType": "lease",
+    "img": {
+        "alt" : "深圳写字楼、办公室租赁，深圳租赁信息网",
+        "name" : "lease.jpg"
+    }
+}
+{
+    "id": 1,
+    "bannerType": "news",
+    "img": {
+        "alt" : "深圳写字楼、办公室租赁，深圳租赁信息网",
+        "name" : "news.jpg"
+    }
+}
+{
+    "id": 2,
+    "bannerType": "contactus",
+    "img": {
+        "alt" : "深圳写字楼、办公室租赁，深圳租赁信息网",
+        "name" : "contactus.jpg"
+    }
+}

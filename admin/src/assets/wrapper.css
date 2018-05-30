@@ -1,0 +1,320 @@
+/* wrapper */
+    .wrapperVue {
+        min-height: 400px;
+        padding-bottom: 50px;
+    }
+    .wrapper {
+        padding: 15px 30px 0;
+    }
+
+/* wrapper-nav */
+    .wrapper-nav {
+        margin-bottom: 15px;
+    }
+    .wrapper-nav ul.left li {
+        float: left;
+        margin-right: 10px;
+    }
+    .wrapper-nav ul.right li {
+        float: left;
+        margin-left: 10px;
+    }
+    .wrapper-nav .navlink {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+        line-height: 28px;
+        color: #1d1d1d;
+        border: 1px solid #CCC;
+        border-radius: 4px;
+    }
+    .wrapper-nav .navlink:focus,
+    .wrapper-nav .navlink:hover {
+        background: #f0f0f0;
+    }
+    .wrapper-nav .navlink img {
+        margin-right: 3px;
+    }
+    .wrapper-nav .select {
+        height: 30px;
+        min-width: 100px;
+        padding-left: 10px;
+        font-size: 13px;
+        color: #1d1d1d;
+        border: 1px solid #CCC;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+    }
+
+/* table */
+    ._Table_ {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    ._Table_,
+    ._Table_ th,
+    ._Table_ td {
+        border: 1px solid #ddd;
+    }
+    ._Table_ th {
+        height: 45px;
+        font-size: 15px;
+        line-height: 45px;
+        color: #333;
+        background: #F1F2F7;
+    }
+    ._Table_ td {
+        padding: 10px 5px;
+        font-size: 13px;
+        color: #666;
+    }
+    ._Table_ .chkbox {
+        width: 50px;
+    }
+    ._Table_ .handle {
+        width: 150px;
+    }
+    ._Table_ .vertical-line {
+        font-size: 13px;
+        color: #999;
+    }
+    ._Table_ .handleEdit {
+        font-size: 13px;
+        color: #23b7e5;
+    }
+    ._Table_ .handleEdit:focus,
+    ._Table_ .handleEdit:hover {
+        color: #3276B1;
+    }
+    ._Table_ .handleDelete {
+        font-size: 13px;
+        color: #333;
+    }
+    ._Table_ .handleDelete:focus,
+    ._Table_ .handleDelete:hover {
+        color: #ff4500;
+        cursor: pointer;
+    }
+
+/* _Table_Form_ */
+    ._Table_Form_ {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    ._Table_Form_,
+    ._Table_Form_ th {
+        border: 1px solid #ddd;
+    }
+    ._Table_Form_ th {
+        height: 40px;
+        padding-left: 15px;
+        font-size: 16px;
+        line-height: 40px;
+        color: #333;
+        background: #f7f7f7;
+    }
+    ._Table_Form_ td {
+        padding-bottom: 30px;
+        font-size: 14px;
+        color: #454545;
+        vertical-align: top;
+    }
+    ._Table_Form_ ._key_ {
+        padding-left: 30px;
+        width: 120px;
+        line-height: 30px;
+    }
+    ._Table_Form_ ._value_ {
+        line-height: 30px;
+    }
+    ._Table_Form_ .select {
+        height: 30px;
+        min-width: 120px;
+        padding-left: 10px;
+        font-size: 13px;
+        color: #1d1d1d;
+        border: 1px solid #CCC;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+    }
+    ._Table_Form_ .checkboxs li {
+        float: left;
+        margin-right: 15px;
+        font-size: 12px;
+        color: #333;
+        line-height: 30px;
+    }
+    ._Table_Form_ ._value_ input.input {
+        width: 600px;
+    }
+    ._Table_Form_ ._value_ input.range {
+        width: 120px;    /* 范围 */
+    }
+    ._Table_Form_ ._value_ input.input,
+    ._Table_Form_ ._value_ input.range {
+        height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+    }
+    ._Table_Form_ ._value_ textarea.textarea {
+        height: 100px;
+        width: 600px;
+        padding: 5px;
+        font-size: 14px;
+        line-height: 1.5em;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+                box-sizing: border-box;
+        resize: none;
+    }
+    ._Table_Form_ ._value_ input.input:focus,
+    ._Table_Form_ ._value_ input.range:focus,
+    ._Table_Form_ ._value_ textarea.textarea:focus {
+        border: 1px solid #00D1B2;
+    }
+    ._Table_Form_ ._value_ input.is-danger,
+    ._Table_Form_ ._value_ textarea.is-danger {
+        border: 1px solid #ff3860;
+    }
+    ._Table_Form_ ._value_ label.is-danger {
+        margin-left: 10px;
+        font-size: 13px;
+        color: #ff3860;
+    }
+    ._Table_Form_ ._value_ label.label {
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: 30px;
+        color: #ff3860;
+    }
+    /* 提交 */
+    .wrapper .confirm {
+		height: 35px;
+        width: 100px;
+        margin-top: 15px;
+        font-size: 15px;
+		color: #fff;
+		background: #19AAD4;
+		border: 1px solid #19AAD4;
+        border-radius: 2px;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+                box-sizing: border-box;
+        cursor: pointer;
+	}
+	.wrapper .confirm:focus,
+	.wrapper .confirm:hover {
+		background-color: rgb(21, 147, 182);
+		border: 1px solid rgb(21, 147, 182);
+    }
+    /* vue-core-image-upload 上传图片 */
+    .images-upload {
+        float: left;
+        height: 30px;
+        width: 75px;
+        margin-right: 30px;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        background: #1E639F;
+		border: 1px solid #1E639F;
+        border-radius: 4px;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+    .images-upload:focus,
+	.images-upload:hover {
+		background-color: #024D8E;
+        border: 1px solid #024D8E;
+    }
+    .imgShow li {
+        float: left;
+        height: 100px;
+        width: 200px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .imgShow img {
+        display: block;
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    /* vue-quill-editor 富文本编辑器 */
+    ._Table_Form_ ._editor_ {
+        padding-bottom: 0;
+    }
+    .ql-container {
+        min-height: 240px;
+    }
+    .ql-container strong {
+        font-weight: bold;
+        font-variant: normal;
+    }
+    .editor-images-upload {
+        display: none;
+    }
+    /* 百度地图 */
+    .baiduMap {
+        margin-right: 30px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .baidu-input {
+        height: 30px;
+        width: 300px;
+        margin-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #333;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+				box-sizing: border-box;
+    }
+    .baidu-search {
+        height: 30px;
+        width: 60px;
+        color: #fff;
+        background: #1E639F;
+        border: none;
+        -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+                box-sizing: border-box;
+        cursor: pointer;
+    }
+    /* 去掉地图左下角的百度LOGO */
+    .baiduMap .anchorBL { display: none; }

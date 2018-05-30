@@ -1,0 +1,17 @@
+{
+    "id": 0,
+    "newsType": [
+        {
+            "typeId": 0,
+            "name": "新闻焦点"
+        },
+        {
+            "typeId": 1,
+            "name": "行业新闻"
+        },
+        {
+            "typeId": 2,
+            "name": "其他新闻"
+        }
+    ]
+}
